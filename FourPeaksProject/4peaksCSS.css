@@ -1,0 +1,29 @@
+/*Team Project: 404 Found, CIS 425, 10/31/2018*/
+/*CSS Document*/
+
+/*probably going to want to do the 12 part sizing thing like mazzola did - 
+	will make things easier on us later down the line*/
+
+/*probably want to use a cool google font api*/
+
+body{
+	background-color: papayawhip;}
+footer{
+	text-align: center;
+	margin: auto;}
+table, th, td{
+	border: 2px solid black;}
+table img{
+	height: 100px; 
+	width: 100px;}
+.header{
+	text-align: center;
+	margin: auto;}
+.navigationLink{
+	text-align: center;
+	margin: auto;}
+.logoUpLeft{
+	/*do the mazzola spacing for width*/
+	width: 200px;
+	height: 200px;
+	float: left;}
