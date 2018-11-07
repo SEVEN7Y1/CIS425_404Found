@@ -1,0 +1,126 @@
+/*Team Project: 404 Found, CIS 425, 10/31/2018*/
+/*CSS Document*/
+
+body {
+	background-color: #006262;
+	font-family: 'Heebo', sans-serif;}
+footer{
+	text-align: center;
+	margin: auto;}
+table, th, td{
+	border: 2px solid black;}
+table img{
+	height: 50px; 
+	width: 50px;
+	background-position: top-center;}
+.header{
+	text-align: center;
+	font-size:30px;
+	color: white;
+	margin: auto;}
+.navigationLink{
+	text-align: center;
+	margin: auto;}
+#bodyCategory{
+	font-size: 75px;
+	color: #383838;}
+nav a {
+	background-color: red;
+	width: 100px; /*use the mazzola code instead*/
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
+	margin: 5px;
+	color: black;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;}
+#mapImage{
+	height: 200px; 
+	width: 200px;}
+.centerItems{
+	text-align: center;}
+#openLateImage{
+	height: 300px;
+	width: 250px;
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;}
+#contactBody{
+	text-align: center;}
+#instagramLogo, #facebookLogo{
+	height: 30px;
+	width: 30px;}
+
+/*THE MAZZOLA CODE*/
+	* {box-sizing: 	border-box;}
+
+		/* For phones (portrait) unless another @media rule below is fired */
+		@media only screen and (max-width: 499px) {
+			.col-sm-00  {display: 		   none; }
+			.col-sm-12 	{width: 		   100%; }
+			body 		{background-color: #006262;}
+			[class*="col-sm-"] {
+				border: 		1px solid #006262;
+			}
+		}
+
+		/* For medium screens (e.g. landscape phones and portrait tablets) */
+		@media only screen and (min-width: 500px) {
+			.col-md-00  {display: 		   none; }
+			.col-md-01  {width: 		  8.33%; }
+			.col-md-02  {width: 		 16.66%; }
+			.col-md-03  {width: 		 25.00%; }
+			.col-md-04  {width: 		 33.33%; }
+			.col-md-05  {width: 		 41.66%; }
+			.col-md-06  {width: 		 50.00%; }
+			.col-md-07  {width: 		 58.33%; }
+			.col-md-08  {width: 		 66.66%; }
+			.col-md-09  {width: 		 75.00%; }
+			.col-md-10  {width: 		 83.33%; }
+			.col-md-11  {width: 		 91.66%; }
+			.col-md-12  {width: 		100.00%; }
+			body 		{background-color: #006262;}
+			[class*="col-md-"] {
+				border: 		1px solid #006262;
+			}
+		}
+
+		/* For large screens or landscape tablets*/		
+		@media only screen and (min-width: 1024px) {
+			.col-md-00  {display: 		initial; }
+			.col-sm-00  {display:       initial; }
+			.col-lg-01  {width: 		  8.33%; }
+			.col-lg-02  {width: 		 16.66%; }
+			.col-lg-03  {width: 		 25.00%; }
+			.col-lg-04  {width: 		 33.33%; }
+			.col-lg-05  {width: 		 41.66%; }
+			.col-lg-06  {width: 		 50.00%; }
+			.col-lg-07  {width: 		 58.33%; }
+			.col-lg-08  {width: 		 66.66%; }
+			.col-lg-09  {width: 		 75.00%; }
+			.col-lg-10 	{width: 		 83.33%; }
+			.col-lg-11 	{width: 		 91.66%; }
+			.col-lg-12 	{width: 		100.00%; }
+			body 		{background-color:  #006262;}
+			[class*="col-lg-"] {
+				border: 		1px solid  #006262;
+			}
+		}
+
+		[class*="col-"] {
+			float: 				left;
+			border-radius: 		10px;
+		}
+
+		.row::after {
+			content: 			"";
+			clear: 				both;
+			display: 			block;
+		}
+
+		.wht {background-color: #ffffff;}
+		.teal {background-color: #006262;}
+/* END MAZZOLA CODE */
+
+		
